@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  align-items: center;
+  background-color: rgb(231, 206, 206);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+main {
+  display: flex;
+  margin: 0 auto;
+  background-color: rgb(215, 215, 215);
+  padding: 1rem 2rem;
+}
+
+.player {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.suggestions {
+  background-color: rgb(215, 215, 255);
+  width: 40rem;
+}
+
+.channel {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.subscribe {
+  height: 2rem;
+  padding: 0 1rem;
+}
